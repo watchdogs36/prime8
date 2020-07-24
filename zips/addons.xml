@@ -3,7 +3,7 @@
 
 <addon id="repository.XForce"
        name="  [COLORdarkslateblue]X-Force[/COLOR][COLORdimgray]Repo[/COLOR]"
-       version="20.1.1"
+       version="20.7.24"
        provider-name="[COLORdarkslateblue]• Cable •[/COLOR]">
     <extension point="xbmc.addon.repository" name="X-Force Repository">
     <dir>
@@ -35,91 +35,6 @@
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
     </assets>
-    </extension>
-</addon>
-
-<addon id="plugin.video.youtube" name="YouTube" version="6.6.0" provider-name="anxdpanic, bromix">
-    <requires>
-        <import addon="xbmc.python" version="2.20.0"/>
-        <import addon="script.module.six" version="1.11.0"/>
-        <import addon="script.module.requests" version="2.12.4"/>
-        <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="resources/lib/default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="resources/lib/startup.py" start="login"/>
-    <extension point="xbmc.python.module" library="resources/lib/"/>
-    <extension point="xbmc.addon.metadata">
-        <news>
-[add] 'Play (Ask for quality)' context menu
-[add] search by channel or playlist id
-[add] hide_folders, hide_playlists, hide_search, and hide_live to /channel/&lt;channel_id&gt;/ end-point
-    - ie. plugin://plugin.video.youtube/channel/UC4PooiX37Pld1T8J5SYT-SQ/?hide_folders=true will hide all folders(Playlists, Search, and Live) in the channel listing
-[fix] playback for some videos (ie. music videos)
-[fix] playback of some videos with no adaptive video streams
-[fix] don't update watch history when incognito/screensaver/live |contrib: regseb|
-[fix] search prompting for input after video playback or refresh
-[lang] el_gr strings |contrib: twilight0|
-[lang] es_es strings |contrib: roliverosc|
-[lang] pt_br strings |contrib: MediaBrasil|
-[lang] cs_cz strings |contrib: llzn.cz|
-[lang] it_it strings |contrib: SebastianoPistore|
-[lang] de_de strings |contrib: tweimer|
-        </news>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-        <summary lang="en_GB">Plugin for YouTube</summary>
-        <description lang="en_GB">YouTube is one of the biggest video-sharing websites of the world.</description>
-        <disclaimer lang="en_GB">This plugin is not endorsed by Google</disclaimer>
-        <summary lang="he_IL">תוסף עבור YouTube</summary>
-        <description lang="he_IL">YouTube הוא אחד מאתרי שיתוף הווידאו הגדולים בעולם.</description>
-        <summary lang="de_DE">Plugin für YouTube</summary>
-        <description lang="de_DE">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
-        <summary lang="pl_PL">Wtyczka YouTube</summary>
-        <description lang="pl_PL">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
-        <summary lang="hu_HU">YouTube kiegészítő</summary>
-        <description lang="hu_HU">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
-        <summary lang="es_ES">Plugin para YouTube</summary>
-        <description lang="es_ES">YouTube es uno de los sitios web para compartir videos más grande del mundo.</description>
-        <disclaimer lang="es_ES">Este add-on no está respaldado por Google</disclaimer>
-        <summary lang="es_MX">Plugin para YouTube</summary>
-        <description lang="es_MX">YouTube es uno de los más grandes sitios web de intercambio de videos del mundo.</description>
-        <disclaimer lang="es_MX">Este add-on no está respaldado por Google</disclaimer>
-        <summary lang="ru_RU">Видеодополнение YouTube</summary>
-        <description lang="ru_RU">YouTube - популярнейший видеохостинговый сайт, предоставляющий пользователям услуги хранения, доставки и показа видео.</description>
-        <summary lang="fr_FR">Plugin pour YouTube</summary>
-        <description lang="fr_FR">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
-        <summary lang="zh_CN">YouTube附加元件</summary>
-        <description lang="zh_CN">「Youtube」是全世界最大的影片分享網站</description>
-        <summary lang="zh_TW">YouTube附加元件</summary>
-        <description lang="zh_TW">「Youtube」是全世界最大的影片分享網站</description>
-        <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
-        <summary lang="bg_BG">Добавка за YouTube</summary>
-        <description lang="bg_BG">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
-        <summary lang="el_GR">Πρόσθετο YouTube</summary>
-        <description lang="el_GR">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
-        <disclaimer lang="el_GR">Η παρούσα μικροεφαρμογή δεν έχει υϊοθετηθεί από την Google</disclaimer>
-        <summary lang="nb_NO">Tillegg for YouTube</summary>
-        <description lang="nb_NO">YouTube er en av verdens største nettsider for videodeling.</description>
-        <summary lang="ko_KR">유튜브 플러그인</summary>
-        <description lang="ko_KR">유튜브는 세상에서 가장 큰 동영상 공유 사이트 중의 하나입니다.</description>
-        <summary lang="cs_CZ">Plugin pro YouTube</summary>
-        <description lang="cs_CZ">YouTube je jedna z největších webových stránek světa sdílející video.</description>
-        <disclaimer lang="cs_CZ">Tento plugin není schválen společností Google</disclaimer>
-        <summary lang="tr_TR">YouTube için eklenti</summary>
-        <description lang="tr_TR">YouTube, dünya üzerindeki en büyük video paylaşma platformlarından birisidir</description>
-        <disclaimer lang="tr_TR">Bu eklenti Google tarafından üretilmemiştir</disclaimer>
-        <language></language>
-        <platform>all</platform>
-        <license>GPL-2.0-only</license>
-        <forum>https://forum.kodi.tv/showthread.php?tid=348464</forum>
-        <website>https://www.youtube.com</website>
-        <email>ytplugin at datanet dot ws</email>
-        <source>https://github.com/jdf76/plugin.video.youtube</source>
-        <reuselanguageinvoker>true</reuselanguageinvoker>
     </extension>
 </addon>
 
@@ -309,6 +224,469 @@
 
 </addon>
 
+<addon id="plugin.video.youtube" name="YouTube" version="6.8.2" provider-name="anxdpanic, bromix">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0"/>
+        <import addon="script.module.six" version="1.11.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="resources/lib/startup.py" start="login"/>
+    <extension point="xbmc.python.module" library="resources/lib/"/>
+    <extension point="xbmc.addon.metadata">
+        <news>
+[fix] playback failing
+[fix] viewing comments when logged in
+[fix] intermittent issue with Subscriptions
+[fix] encoding of video unavailable messages
+[upd] updates to recommendations
+[upd] update logging for Kodi 19
+[lang] fr_fr strings |contrib: alan7000|
+[lang] pl_pl strings |contrib: drrak|
+[lang] nl_nl strings |contrib: Markman-B|
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <summary lang="en_GB">Plugin for YouTube</summary>
+        <description lang="en_GB">YouTube is one of the biggest video-sharing websites of the world.</description>
+        <disclaimer lang="en_GB">This plugin is not endorsed by Google</disclaimer>
+        <summary lang="he_IL">תוסף עבור YouTube</summary>
+        <description lang="he_IL">YouTube הוא אחד מאתרי שיתוף הווידאו הגדולים בעולם.</description>
+        <summary lang="de_DE">Plugin für YouTube</summary>
+        <description lang="de_DE">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
+        <summary lang="pl_PL">Wtyczka YouTube</summary>
+        <description lang="pl_PL">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
+        <summary lang="hu_HU">YouTube kiegészítő</summary>
+        <description lang="hu_HU">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
+        <summary lang="es_ES">Plugin para YouTube</summary>
+        <description lang="es_ES">YouTube es uno de los sitios web más grande del mundo para compartir vídeos.</description>
+        <disclaimer lang="es_ES">Este add-on no está respaldado por Google</disclaimer>
+        <summary lang="es_MX">Plugin para YouTube</summary>
+        <description lang="es_MX">YouTube es uno de los más grandes sitios web de intercambio de videos del mundo.</description>
+        <disclaimer lang="es_MX">Este add-on no está respaldado por Google</disclaimer>
+        <summary lang="ru_RU">Видеодополнение YouTube</summary>
+        <description lang="ru_RU">YouTube - популярнейший видеохостинговый сайт, предоставляющий пользователям услуги хранения, доставки и показа видео.</description>
+        <summary lang="fr_FR">Plugin pour YouTube</summary>
+        <description lang="fr_FR">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
+        <summary lang="zh_CN">YouTube附加元件</summary>
+        <description lang="zh_CN">「Youtube」是全世界最大的影片分享網站</description>
+        <summary lang="zh_TW">YouTube附加元件</summary>
+        <description lang="zh_TW">「Youtube」是全世界最大的影片分享網站</description>
+        <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
+        <summary lang="bg_BG">Добавка за YouTube</summary>
+        <description lang="bg_BG">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
+        <summary lang="el_GR">Πρόσθετο YouTube</summary>
+        <description lang="el_GR">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
+        <disclaimer lang="el_GR">Η παρούσα μικροεφαρμογή δεν έχει υϊοθετηθεί από την Google</disclaimer>
+        <summary lang="nb_NO">Tillegg for YouTube</summary>
+        <description lang="nb_NO">YouTube er en av verdens største nettsider for videodeling.</description>
+        <summary lang="ko_KR">유튜브 플러그인</summary>
+        <description lang="ko_KR">유튜브는 세상에서 가장 큰 동영상 공유 사이트 중의 하나입니다.</description>
+        <summary lang="cs_CZ">Plugin pro YouTube</summary>
+        <description lang="cs_CZ">YouTube je jedna z největších webových stránek světa sdílející video.</description>
+        <disclaimer lang="cs_CZ">Tento plugin není schválen společností Google</disclaimer>
+        <summary lang="tr_TR">YouTube için eklenti</summary>
+        <description lang="tr_TR">YouTube, dünya üzerindeki en büyük video paylaşma platformlarından birisidir</description>
+        <disclaimer lang="tr_TR">Bu eklenti Google tarafından üretilmemiştir</disclaimer>
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <forum>https://ytaddon.page.link/forum</forum>
+        <website>https://www.youtube.com</website>
+        <email>ytplugin at datanet dot ws</email>
+        <source>https://github.com/jdf76/plugin.video.youtube</source>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+</addon>
+
+<addon id="script.module.addon.common" 
+	     name="Common addon methods" 
+	     version="2.0.0" 
+	     provider-name="Eldorado (original: t0mm0)">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Collection of commonly used addon routines</summary>
+    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>  
+  </extension>
+</addon>
+
+<addon id="script.module.addon.signals"
+    name="Addon Signals"
+    version="0.0.5"
+    provider-name="Rick Phillips (ruuk)">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Inter-addon signalling</summary>
+        <description lang="en">Provides signal/slot mechanism for inter-addon communication</description>
+        <platform>all</platform>
+        <license>LGPL-2.1-only</license>
+        <source>https://github.com/ruuk/script.module.addon.signals</source>
+    </extension>
+</addon>
+
+<addon id="script.module.beautifulsoup4"
+       name="BeautifulSoup4"
+       version="4.6.2"
+       provider-name="Leonard Richardson (leonardr@segfault.org)">
+  <requires>
+    <import addon="xbmc.python" 
+             version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Screen-scraping library</summary>
+    <description lang="en_GB">Beautiful Soup is a library that makes it easy to scrape information from web pages. It sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree.</description>
+    <license>MIT</license>
+    <platform>all</platform>
+    <website>https://www.crummy.com/software/BeautifulSoup/</website>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.certifi"
+       name="certifi"
+       version="2019.9.11"
+       provider-name="Kenneth Reitz">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python package for providing Mozilla's CA Bundle.</summary>
+    <description lang="en_GB">Certifi is a carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. It has been extracted from the Requests project.</description>
+    <license>MPL-2.0</license>
+    <website>https://certifi.io</website>
+    <source>https://github.com/certifi/python-certifi</source>
+    <email>freso.dk AT gmail.com</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.chardet"
+       name="chardet"
+       version="3.0.4"
+       provider-name="Dan Blanchard">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Universal encoding detector</summary>
+    <description lang="en_GB">Packed for Kodi from https://github.com/chardet/chardet</description>
+    <license>LGPL</license>
+    <platform>all</platform>
+    <language></language>
+    <forum></forum>
+    <website>https://chardet.readthedocs.io/en/latest/</website>
+    <source>https://github.com/beenje/script.module.chardet</source>
+    <email>beenje AT gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="script.module.future"
+       name="future"
+       version="0.17.1"
+       provider-name="Ed Schofield">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="libs" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Clean single-source support for Python 3 and 2</summary>
+    <description lang="en">future is the missing compatibility layer between Python 2 and Python 3. It allows you to use a single, clean Python 3.x-compatible codebase to support both Python 2 and Python 3 with minimal overhead.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <source>https://github.com/PythonCharmers/python-future</source>
+    <website>http://python-future.org</website>
+  </extension>
+</addon>
+
+<addon id="script.module.idna"
+       name="idna"
+       version="2.8"
+       provider-name="Kim Davies">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Internationalized Domain Names for Python</summary>
+    <description lang="en_GB">Packed for KODI from https://github.com/kjd/idna</description>
+    <platform>all</platform>
+    <language></language>
+    <license>BSD</license>
+    <forum></forum>
+    <website>https://github.com/kjd/idna</website>
+    <source>https://github.com/Freso/script.module.idna</source>
+    <email>freso.dk AT gmail.com</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.kodi-six"
+       name="Kodi Six"
+       version="0.1.3"
+       provider-name="Roman V.M.">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="libs" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Wrappers around Kodi Python API for seamless Python 2/3 compatibility</summary>
+    <description lang="en_GB">Wrappers around Kodi Python API that normalize handling of textual and byte strings in Python 2 and 3.</description>
+    <platform>all</platform>
+    <license>GPL v.3</license>
+    <forum>https://forum.kodi.tv/showthread.php?tid=327883</forum>
+    <source>https://github.com/romanvm/kodi.six</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <news>0.1.3:
+- Fix non-UTF-8 byte string decoding in Python 2.</news>
+  </extension>
+</addon>
+
+<addon id="script.module.metahandler" 
+     name="metahandler" 
+     version="3.0.3" 
+     provider-name="Eldorado, jsergio">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="script.module.myconnpy" version="1.1.6"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
+    <description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="script.module.myconnpy"
+       name="MySQL Connector/Python"
+       version="1.1.7"
+       provider-name="MySQL">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">MySQL Connector/Python</summary>
+        <description lang="en">MySQL Connector/Python is implementing the MySQL Client/Server protocol completely in Python. This means you don't have to compile anything or MySQL (client library) doesn't even have to be installed on the machine.</description>
+        <license>GPLv2</license>
+        <platform>all</platform>
+        <website>http://dev.mysql.com/doc/connector-python/en/index.html</website>
+        <source>http://dev.mysql.com/downloads/connector/python/</source>
+    </extension>
+</addon>
+
+<addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.2.007" provider-name="Addons4Kodi">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0" />
+		<import addon="script.module.beautifulsoup4" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="lib/default.py">
+		<provides>executable</provides>
+	</extension> 
+	<extension point="xbmc.service" library="lib/service.py" start="startup" />
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">OpenScrapers Module</summary>
+		<description>Scrape common video host for URL's to be playable in Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
+		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website>https://github.com/a4k-openproject/script.module.openscrapers</website>
+		<source>https://github.com/a4k-openproject/script.module.openscrapers</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart></fanart>
+			<screenshot></screenshot>
+		</assets>
+		<news>
+0.0.2.007
+- More work for Py3 compatibility
+0.0.2.006
+- Small fix to client module for Referer link
+- Added new free hoster WATCHSERIESTV
+- fixed and brought back CARTOONHD
+- small fix for SHOWBOX vid quality
+- Added new free hoster MYPUTLOCKERS
+		</news>
+	</extension>
+</addon>
+
+<addon id="script.module.requests"
+       name="requests"
+       version="2.22.0"
+       provider-name="kennethreitz">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.urllib3" version="1.22"/>
+    <import addon="script.module.chardet" version="3.0.4"/>
+    <import addon="script.module.idna" version="2.6"/>
+    <import addon="script.module.certifi" version="2017.07.27.1"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python HTTP for Humans</summary>
+    <description lang="en_GB">Packed for KODI from https://pypi.org/project/requests/</description>
+    <platform>all</platform>
+    <language></language>
+    <license>Apache2</license>
+    <forum></forum>
+    <website>http://python-requests.org</website>
+    <source>https://github.com/Freso/script.module.requests</source>
+    <email>freso.dk AT gmail.com</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.38" provider-name="jsergio">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.python.twitch" optional="true" />
+        <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
+        <import addon="plugin.video.gdrive" optional="true" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+        <summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
+        <summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+        <summary lang="el">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi.</summary>
+        <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+    </extension>
+</addon>
+
+<addon id="script.module.routing" name="Plugin routing" version="0.2.3" provider-name="takoi">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Routing module for plugins</summary>
+        <description lang="en_GB">Library for building and parsing plugin URLs.</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <platform>all</platform>
+        <language>en_GB</language>
+        <source>https://github.com/tamland/kodi-plugin-routing</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.module.simplejson"
+       name="simplejson"
+       version="3.16.1" 
+       provider-name="Bob Ippolito">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Simple, fast, extensible JSON encoder/decoder for Python</summary>
+    <description lang="en">Simple, fast, extensible JSON encoder/decoder for Python</description>
+    <disclaimer lang="en">Code taken from https://pypi.org/project/simplejson/</disclaimer>
+    <license>MIT License, Academic Free License v. 2.1</license>
+    <website>https://pypi.org/project/simplejson/</website>
+    <source>https://github.com/simplejson/simplejson</source>
+  </extension>
+</addon>
+
+<addon id="script.module.six"
+       name="six"
+       version="1.13.0"
+       provider-name="gutworth">
+  <requires>
+    <import addon="xbmc.python"
+    		version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Python 2 and 3 compatibility utilities.</summary>
+    <description lang="en">Six is a Python 2 and 3 compatibility library. It provides utility functions for smoothing over the differences between the Python versions with the goal of writing Python code that is compatible on both Python versions. See the documentation for more information on what is provided.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <source>https://pypi.org/project/six/</source>
+    <website>https://pypi.org/project/six/</website>
+  </extension>
+</addon>
+
+<addon id="script.module.urllib3"
+       name="urllib3"
+       version="1.25.6"
+       provider-name="Andrey Petrov">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">HTTP library with thread-safe connection pooling, file post, and more.</summary>
+    <description lang="en_GB">Packed for KODI from https://pypi.org/project/urllib3/</description>
+    <license>MIT</license>
+    <website>https://urllib3.readthedocs.io/en/latest/</website>
+    <source>https://github.com/urllib3/urllib3</source>
+    <email>freso.dk AT gmail.com</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
 
 <addon  id="script.swift" version="20.6.1" name="   [COLORmagenta]Swift[COLORcyan]Streamz[/COLOR]" provider-name="[COLORmagenta]• [COLORcyan]Cable [COLORmagenta]•[/COLOR]">
   <requires>
@@ -368,199 +746,6 @@
         <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
-</addon>
-
-<addon id="script.module.cryptolib" name="Crypto Libraries" version="1.1.1" provider-name="Twilight0">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Pure Python implementation of some cryptographic libraries</summary>
-    <source>https://github.com/Twilight0/script.module.cryptolib</source>
-    <platform>all</platform>
-    <license>MIT</license>
-  </extension>
-</addon>
-
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.37a" provider-name="jsergio">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="plugin.video.youtube" optional="true" />
-        <import addon="script.module.python.twitch" optional="true" />
-        <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
-        <import addon="plugin.video.gdrive" optional="true" />
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-        <summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
-        <summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
-        <summary lang="el">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi.</summary>
-        <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-        <description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
-    </extension>
-</addon>
-
-<addon id="script.module.js2py" name="js2py" version="0.6.7" provider-name="Addons4Kodi">
-  <requires>
-    <import addon="xbmc.python" version="2.25.0"/>
-    <import addon="script.module.six" version="1.11.0"/>
-    <import addon="script.module.pyjsparser" version="2.7.1"/>
-    <import addon="script.module.tzlocal" version="1.5.1"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Pure Python JavaScript Translator/Interpreter</summary>
-    <description>Packed for Kodi from https://github.com/PiotrDabkowski/Js2Py</description>
-    <platform>all</platform>
-    <language></language>
-    <license>MIT</license>
-    <forum></forum>
-    <website>https://github.com/PiotrDabkowski/Js2Py</website>
-    <source>https://github.com/PiotrDabkowski/Js2Py</source>
-    <email></email>
-  </extension>
-</addon>
-
-<addon id="script.module.pytz" name="pytz" version="2014.2" provider-name="Stuart Bishop, Paul Backhouse">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib"/>
-	<extension point="xbmc.addon.metadata">
-	    <summary lang="en">World Timezone Definitions for Python.</summary>
-	    <description lang="en">pytz brings the Olson tz database into Python. This library allows accurate and cross platform timezone calculations using Python 2.4 or higher. It also solves the issue of ambiguous times at the end of daylight saving time, which you can read more about in the Python Library Reference (datetime.tzinfo).</description>
-	    <platform>all</platform>
-	    <language></language>
-	    <license>MIT</license>
-	    <forum></forum>
-	    <website>https://pypi.python.org/pypi/pytz/</website>
-	    <source>https://github.com/powlo/script.module.pytz</source>
-	    <email></email>
-	    <disclaimer lang="en">Use at your own risk. The authors accept no liability. May cause permanent and/or catastrophic damage. Side effects include, but are not limited to loss of memory, seizures, sudden fits of rage, sudden fits of melancholy, inability to recall prominent capital cities, lack of respect for authority, fear of cats, temporary and/or permanent black outs. Avoid inhalation. Use in a well ventilated space. Keep away from small children.</disclaimer>
-	</extension>
-</addon>
-
-<addon id="script.module.pyjsparser" name="pyjsparser" version="2.7.2a" provider-name="Addons4Kodi">
-  <requires>
-    <import addon="xbmc.python" version="2.25.0"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Pure Python JavaScript Translator/Interpreter</summary>
-    <description>Packed for Kodi from https://github.com/PiotrDabkowski/pyjsparser</description>
-    <platform>all</platform>
-    <language></language>
-    <license>MIT</license>
-    <forum></forum>
-    <website>https://github.com/PiotrDabkowski/pyjsparser</website>
-    <source>https://github.com/PiotrDabkowski/pyjsparser</source>
-    <email></email>
-  </extension>
-</addon>
-
-<addon id="context.elementum" name="Elementum Context Helper" version="0.0.3" provider-name="elgatito">
-    <requires>
-        <import addon="xbmc.python" version="2.23.0"/>
-        <import addon="script.module.requests"/>
-        <import addon="plugin.video.elementum" optional="true"/>
-    </requires>
-    <extension point="kodi.context.item">
-      <menu id="kodi.core.main">
-          <label>My submenu</label>
-          <item library="context_play.py">
-            <label>32000</label>
-            <visible>StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode)</visible>
-          </item>
-          <item library="context_download.py">
-            <label>32012</label>
-            <visible>StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode)</visible>
-          </item>
-          <!-- <item library="context_menu.py">
-            <label>32001</label>
-            <visible>StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,tvshow) | StringCompare(ListItem.dbtype,season) | StringCompare(ListItem.dbtype,episode)</visible>
-          </menu> -->
-    </menu>
-    </extension>
-    <extension point="kodi.addon.metadata">
-        <summary lang="en">Elementum Context Menu</summary>
-        <description lang="en">Context Menu for Elementum.</description>
-        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.
-        </disclaimer>
-        <license>WTFPL, Version 2, December 2004. See included LICENSE.</license>
-        <website>https://elementum.surge.sh</website>
-        <source>https://github.com/elgatito/context.elementum</source>
-        <forum></forum>
-    </extension>
-</addon>
-
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.58" provider-name="elgatito">
-    <requires>
-        <import addon="xbmc.addon" version="16.0.0" />
-        <import addon="repository.elementum" optional="true" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="navigation.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="startup" />
-    <extension point="xbmc.python.module" library="resources/site-packages" />
-    <extension point="xbmc.subtitle.module" library="navigation.py" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Elementum: Media streaming</summary>
-        <summary lang="hr">Elementum: Medijsko strujanje</summary>
-        <summary lang="es">Elementum: Transmisión de medios</summary>
-        <description lang="en">Elementum is a torrent finding and streaming engine. It doesn't go on torrent websites for legal reasons. However, it calls specially crafted add-ons (called providers) that are installed separately.[CR]This project is a fork of the well known, but no longer maintained Pulsar/Quasar projects from steeve and scakemyer.</description>
-        <description lang="hr">Elementum je pogon pretraživanja i strujanja. Ne posjećuje torrent web stranice iz pravnih razloga. Ipak, koristi posebno napravljene dodatke (nazvane pružatelji usluge) koji su instalirani odvojeno.[CR]Ovaj projekt je ogranak dobro poznatih, ali više ne održavanih Pulsar/Quasar projekata od autora steevea i scakemyera.</description>
-        <description lang="es">Elementum es un motor de búsqueda y transmisión torrent. No navega por sitios web torrent por razones legales. Sin embargo, llama a complementos especialmente diseñados para ello (denominados providers o proveedores) que se instalan por separado.[CR]Este proyecto es un fork de los bien conocidos, pero ya sin soporte proyectos Pulsar/Quasar de steeve y scakemyer.[CR]</description>
-        <disclaimer lang="en">The author does not own or host any content found within this Addon. The author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
-        <disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa ili na bilo koji drugi način bilo sa Kodijem, Team Kodijem ili XBMC fundacijom.</disclaimer>
-        <disclaimer lang="es">El autor no posee ni aloja ningún contenido que se encuentre a través de este complemento. El autor no está unido ni relacionado de ninguna manera con Kodi, Team Kodi, o XBMC Foundation.</disclaimer>
-        <language>en el es de fi fr he hr it nl pt ro sk</language>
-        <platform>all</platform>
-        <website>http://elementum.surge.sh/</website>
-        <source>https://github.com/elgatito/plugin.video.elementum</source>
-        <forum></forum>
-        <license>Non commercial. See https://github.com/elgatito/plugin.video.elementum/blob/master/LICENSE</license>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.png</fanart>
-            <screenshot>resources/screenshots/home.png</screenshot>
-            <screenshot>resources/screenshots/movies.png</screenshot>
-            <screenshot>resources/screenshots/webui.png</screenshot>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="script.elementum.burst" name="Elementum [COLOR FFFF6B00]Burst[/COLOR]" version="0.0.49" provider-name="elgatito">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="plugin.video.elementum" optional="true"/>
-    </requires>
-    <extension point="xbmc.python.script" library="burst.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Elementum torrents provider</summary>
-        <summary lang="hr">Elementum torrent pružatelji usluga</summary>
-		<summary lang="es">Proveedor de torrents Elementum</summary>
-        <description lang="en">Elementum Burst is a lean and mean multi-provider for Elementum.</description>
-        <description lang="hr">Elementum Burst je višestruki pružatelj usluga za Elementum.</description>
-		<description lang="es">Elementum Burst es un multi-proveedor simple y eficiente para Elementum.</description>
-        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
-		<disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa bilo kojim izvorom sadržaja.</disclaimer>
-		<disclaimer lang="es">El autor no aloja ni distribuye ninguno de los contenidos mostrados por este complemento. El autor no tiene ninguna afiliación con los proveedores de contenido.</disclaimer>    
-		<license>WTFPL, Version 2, December 2004. See included LICENSE.</license>
-        <website>https://elementum.surge.sh</website>
-        <source>https://github.com/elgatito/script.elementum.burst</source>
-        <forum>TODO</forum>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
 </addon>
 	
 </addons>
