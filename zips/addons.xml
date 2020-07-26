@@ -7,9 +7,9 @@
        provider-name="[COLORdarkslateblue]• Cable •[/COLOR]">
     <extension point="xbmc.addon.repository" name="Straitjacket Repository">
     <dir>
-        <info compressed="false">https://raw.githubusercontent.com/watchdogs36/xforce/master/zips/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/watchdogs36/xforce/master/zips/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/watchdogs36/xforce/master/zips/</datadir>
+        <info compressed="false">https://raw.githubusercontent.com/watchdogs36/straitjacket/master/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/watchdogs36/straitjacket/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/watchdogs36/straitjacket/master/zips/</datadir>
     </dir>
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
