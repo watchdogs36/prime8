@@ -6,7 +6,7 @@
 	<title>James Cordon Carpool Karaoke</title>
 	<link>plugin://plugin.video.youtube/playlist/PLLBxtO2u0gURLBwdXLbySXZafYlYqceVs/</link>
 	<thumbnail>http://i.imgur.com/XfHzeI9.png</thumbnail>
-	<fanart>special://home/addons/plugin.video.lu/resources/artwork/lu/fanart.jpg</fanart>
+	<fanart>special://home/addons/plugin.video.watchdogs/resources/artwork/watchdogs/fanart.jpg</fanart>
 	<content></content>
 </plugin>
 
@@ -14,7 +14,7 @@
 	<title>Kids Disney Karaoke</title>
 	<link>plugin://plugin.video.youtube/playlist/PL8D4Iby0Bmm9DM_LC_2MEwqidYODgXsNw/</link>
 	<thumbnail>http://i.imgur.com/DGNhciD.png</thumbnail>
-	<fanart>special://home/addons/plugin.video.lu/resources/artwork/lu/fanart.jpg</fanart>
+	<fanart>special://home/addons/plugin.video.watchdogs/resources/artwork/watchdogs/fanart.jpg</fanart>
 	<content></content>
 </plugin>
 
@@ -22,7 +22,7 @@
 	<title>Best Karaoke Hits 1</title>
 	<link>plugin://plugin.video.youtube/playlist/PLqGkpApxFsX_jRp4sDFz9_gwztqqpDZ2U/</link>
 	<thumbnail>https://ftp.acc.umu.se/mirror/addons.superrepo.org/v7/addons/plugin.video.karaoke-besplatno.ru/icon.png</thumbnail>
-	<fanart>special://home/addons/plugin.video.lu/resources/artwork/lu/fanart.jpg</fanart>
+	<fanart>special://home/addons/plugin.video.watchdogs/resources/artwork/watchdogs/fanart.jpg</fanart>
 	<content></content>
 </plugin>
 
@@ -30,6 +30,6 @@
 	<title>Best Karaoke Hits 2</title>
 	<link>plugin://plugin.video.youtube/playlist/PL8D4Iby0Bmm-uQIcbRfHeUMd_YDSZDA39/</link>
 	<thumbnail>https://ftp.acc.umu.se/mirror/addons.superrepo.org/v7/addons/plugin.video.karaoke-besplatno.ru/icon.png</thumbnail>
-	<fanart>special://home/addons/plugin.video.lu/resources/artwork/lu/fanart.jpg</fanart>
+	<fanart>special://home/addons/plugin.video.watchdogs/resources/artwork/watchdogs/fanart.jpg</fanart>
 	<content></content>
 </plugin>
