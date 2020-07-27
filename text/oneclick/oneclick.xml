@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+<layoutype>GoFuckYourself</layoutype>
+
+<plugin>
+    <name>1Click Movies M3u List</name>
+    <link>plugin://plugin.video.live.streamspro/?url=http://xzotiks.com/TeXTtExt/tigerlive/1click/1clickmovies.m3u&mode=1&name=Tiger</link>
+    <thumbnail>special://home/addons/plugin.video.tiger/resources/artwork/tiger/1click.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.tiger/resources/artwork/tiger/fanart.jpg</fanart>
+</plugin>
+
+<dir>
+    <title>1Click Movies # - E</title>
+    <link>https://xzotiks.com/TeXTtExt/tigerlive/1click/1clicka-e.xml</link>
+    <thumbnail>special://home/addons/plugin.video.tiger/resources/artwork/tiger/1click.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.tiger/resources/artwork/tiger/fanart.jpg</fanart>
+</dir>
+
+<dir>
+    <title>1Click Movies F - K</title>
+    <link>https://xzotiks.com/TeXTtExt/tigerlive/1click/1clickf-k.xml</link>
+    <thumbnail>special://home/addons/plugin.video.tiger/resources/artwork/tiger/1click.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.tiger/resources/artwork/tiger/fanart.jpg</fanart>
+</dir>
+
+<dir>
+    <title>1Click Movies L - P</title>
+    <link>https://xzotiks.com/TeXTtExt/tigerlive/1click/1clickl-p.xml</link>
+    <thumbnail>special://home/addons/plugin.video.tiger/resources/artwork/tiger/1click.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.tiger/resources/artwork/tiger/fanart.jpg</fanart>
+</dir>
+
+<dir>
+    <title>1Click Movies Q - T</title>
+    <link>https://xzotiks.com/TeXTtExt/tigerlive/1click/1clickq-t.xml</link>
+    <thumbnail>special://home/addons/plugin.video.tiger/resources/artwork/tiger/1click.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.tiger/resources/artwork/tiger/fanart.jpg</fanart>
+</dir>
+
+<dir>
+    <title>1Click Movies U - Z</title>
+    <link>https://xzotiks.com/TeXTtExt/tigerlive/1click/1clicku-z.xml</link>
+    <thumbnail>special://home/addons/plugin.video.tiger/resources/artwork/tiger/1click.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.tiger/resources/artwork/tiger/fanart.jpg</fanart>
+</dir>
+
+<dir>
+    <title>1Click Test</title>
+    <link>https://xzotiks.com/TeXTtExt/tigerlive/1click/lumovies.xml</link>
+    <thumbnail>special://home/addons/plugin.video.tiger/resources/artwork/tiger/1click.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.tiger/resources/artwork/tiger/fanart.jpg</fanart>
+</dir>
+
+</xml>
