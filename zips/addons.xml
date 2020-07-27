@@ -28,8 +28,8 @@
     </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>[COLORdarkslateblue]X-Force Repo[/COLOR]</summary>
-        <description>[COLORdarkslateblue]X-Fore Repo[/COLOR]</description>
+        <summary>[COLORdarkslateblue]Straitjacket Repo[/COLOR]</summary>
+        <description>[COLORdarkslateblue]Straitjacket Repo[/COLOR]</description>
         <platform>all</platform>
     <assets>
         <icon>icon.png</icon>
