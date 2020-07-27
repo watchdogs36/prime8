@@ -2,55 +2,37 @@
 <?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
 <layoutype>GoFuckYourself</layoutype>
 
-<plugin >
-<name>Test</name>
-<link>plugin://plugin.video.live.streamspro/?url=https://dmxleo.dailymotion.com/cdn/manifest/video/x6cnaft.m3u8&mode=1&name=Tiger</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin >
-
-<plugin >
-    <name>Pluto</name>
-    <link>plugin://plugin.video.live.streamspro/?url=http://xzotiks.com/TeXTtExt/tigerlive/pluto/pluto.m3u&mode=1&name=Tiger</link>
-    <link >plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/Tempest0580/xml/master/pluto.m3u&mode=1</ link>
-</plugin >
-
-<plugin >
-    <name>123TvNow</name>
-    <link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/Tempest0580/xml/master/123tvnow.m3u&mode=1&name=Tiger</link>
-</plugin >
-
 <plugin>
     <name>Tv Lodge - Updated Monthly</name>
-    <link>plugin://plugin.video.live.streamspro/?url=https://bit.ly/ltv-english&mode=1&name=Tiger</link>
-    <thumbnail>special://home/addons/script.tigertv.artwork\resources\media\tigertv/m3ulist.png</thumbnail>
-    <fanart>special://home/addons/script.tigertv.artwork\resources\media\tigertv/fanart.jpg</fanart>
+    <link>plugin://plugin.video.live.streamspro/?url=https://bit.ly/ltv-english&mode=1&name=Watchdogs</link>
+    <thumbnail>special://home/addons/plugin.video.watchdogs/resources/artwork/watchdogs/m3ulist.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.watchdogs/resources/artwork/watchdogs/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
     <name>Stratus Tv- Updated Monthly</name>
-    <link>plugin://plugin.video.live.streamspro/?url=https://bit.ly/stv-us&mode=1&name=Tiger</link>
-    <thumbnail>special://home/addons/script.tigertv.artwork\resources\media\tigertv/m3ulist.png</thumbnail>
-    <fanart>special://home/addons/script.tigertv.artwork\resources\media\tigertv/fanart.jpg</fanart>
+    <link>plugin://plugin.video.live.streamspro/?url=https://bit.ly/stv-us&mode=1&name=Watchdogs</link>
+    <thumbnail>special://home/addons/plugin.video.watchdogs/resources/artwork/watchdogs/m3ulist.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.watchdogs/resources/artwork/watchdogs/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
     <title>Fluxus Tv - Updated Monthly</title>
-    <link>plugin://plugin.video.live.streamspro/?url=https://bit.ly/FluxusTV-IPTV&mode=1&name=Tiger</link>
-    <thumbnail>special://home/addons/script.tigertv.artwork\resources\media\tigertv/m3ulist.png</thumbnail>
-    <fanart>special://home/addons/script.tigertv.artwork\resources\media\tigertv/fanart.jpg</fanart>
+    <link>plugin://plugin.video.live.streamspro/?url=https://bit.ly/FluxusTV-IPTV&mode=1&name=Watchdogs</link>
+    <thumbnail>special://home/addons/plugin.video.watchdogs/resources/artwork/watchdogs/m3ulist.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.watchdogs/resources/artwork/watchdogs/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
     <title>Fluxus Radio - Updated Monthly</title>
-    <link>plugin://plugin.video.live.streamspro/?url=https://bit.ly/FluxusTV-Radio&mode=1&name=Tiger</link>
-    <thumbnail>special://home/addons/script.tigertv.artwork\resources\media\tigertv/m3ulist.png</thumbnail>
-    <fanart>special://home/addons/script.tigertv.artwork\resources\media\tigertv/fanart.jpg</fanart>
+    <link>plugin://plugin.video.live.streamspro/?url=https://bit.ly/FluxusTV-Radio&mode=1&name=Watchdogs</link>
+    <thumbnail>special://home/addons/plugin.video.watchdogs/resources/artwork/watchdogs/m3ulist.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.watchdogs/resources/artwork/watchdogs/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
     <title>Fluxus Faith - Updated Monthly</title>
-    <link>plugin://plugin.video.live.streamspro/?url=https://bit.ly/FluxusTV-Faith&mode=1&name=Tiger</link>
-    <thumbnail>special://home/addons/script.tigertv.artwork\resources\media\tigertv/m3ulist.png</thumbnail>
-    <fanart>special://home/addons/script.tigertv.artwork\resources\media\tigertv/fanart.jpg</fanart>
+    <link>plugin://plugin.video.live.streamspro/?url=https://bit.ly/FluxusTV-Faith&mode=1&name=Watchdogs</link>
+    <thumbnail>special://home/addons/plugin.video.watchdogs/resources/artwork/watchdogs/m3ulist.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.watchdogs/resources/artwork/watchdogs/fanart.jpg</fanart>
 </plugin>
