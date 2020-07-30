@@ -70,19 +70,6 @@
 </item>
 
 <item>
-<title>Logan</title>
-<link>magnet:?xt=urn:btih:02EEF262C5D1195DBD638B595ABDDDCFD09597B5&tr=udp://tracker.coppersurfer.tk:6969/announce&tr=udp://9.rarbg.to:2920/announce&tr=udp://tracker.opentrackr.org:1337&tr=udp://tracker.internetwarriors.net:1337/announce&tr=udp://tracker.leechers-paradise.org:6969/announce&tr=udp://tracker.coppersurfer.tk:6969/announce&tr=udp://tracker.pirateparty.gr:6969/announce&tr=udp://tracker.cyberia.is:6969/announce</link>
-<thumbnail>https://fanart.tv/detailpreview/fanart/movies/263115/movieposter/logan-5cb3190b9ba57.jpg</thumbnail>
-<fanart>https://fanart.tv/detailpreview/fanart/movies/263115/moviebackground/logan-noir-592747325afb7.jpg</fanart>
-<content>movie</content>
-<meta>
-<title>Logan</title>
-<year>2017</year>
-<imdb>tt3315342</imdb>
-</meta>
-</item>
-
-<item>
 <title>Greyhound</title>
 <link>magnet:?xt=urn:btih:EDB5B0206CF2A4AB4E566269A0A2869FE5D32D3F&tr=udp://tracker.coppersurfer.tk:6969/announce&tr=udp://9.rarbg.to:2920/announce&tr=udp://tracker.opentrackr.org:1337&tr=udp://tracker.internetwarriors.net:1337/announce&tr=udp://tracker.leechers-paradise.org:6969/announce&tr=udp://tracker.coppersurfer.tk:6969/announce&tr=udp://tracker.pirateparty.gr:6969/announce&tr=udp://tracker.cyberia.is:6969/announce</link>
 <thumbnail>https://image.tmdb.org/t/p/w220_and_h330_face/kjMbDciooTbJPofVXgAoFjfX8Of.jpg</thumbnail>
@@ -92,6 +79,19 @@
 <title>Greyhound</title>
 <year>2020</year>
 <imdb>tt6048922</imdb>
+</meta>
+</item>
+
+<item>
+<title>Joker</title>
+<link>magnet:?xt=urn:btih:42E92DEAA863D1B6083BB159C14FA827EA8EF9B6&tr=udp://tracker.coppersurfer.tk:6969/announce&tr=udp://9.rarbg.to:2920/announce&tr=udp://tracker.opentrackr.org:1337&tr=udp://tracker.internetwarriors.net:1337/announce&tr=udp://tracker.leechers-paradise.org:6969/announce&tr=udp://tracker.coppersurfer.tk:6969/announce&tr=udp://tracker.pirateparty.gr:6969/announce&tr=udp://tracker.cyberia.is:6969/announce</link>
+<thumbnail>https://fanart.tv/detailpreview/fanart/movies/475557/movieposter/joker-5d6749c7efb27.jpg</thumbnail>
+<fanart>https://fanart.tv/detailpreview/fanart/movies/475557/moviebackground/joker-5d8609678a45a.jpg</fanart>
+<content>movie</content>
+<meta>
+<title>Joker</title>
+<year>2019</year>
+<imdb>tt7286456</imdb>
 </meta>
 </item>
 
