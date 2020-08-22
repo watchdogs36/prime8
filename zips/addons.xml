@@ -1073,7 +1073,124 @@
 	</extension>
 </addon>
 
+    <addon id="plugin.video.acmeplayer"
+    version="20.6.30"
+    name="   [COLORspringgreen]Acme [COLORpalegreen]Player[/COLOR]"
+    provider-name="[COLORspringgreen]• [COLORpalegreen]Loonatics [COLORspringgreen]•[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="metadata.tvdb.com" version="3.0.14"/>
+        <import addon="script.module.futures" version="2.2.0"/>
+        <import addon="script.module.requests" version="2.19.1"/>
+        <import addon="script.module.requests-cache" version="0.4.13"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="context.py">
+                <label>Acme Player - Default Player</label>
+                <visible>!String.StartsWith(ListItem.path,plugin://plugin.video.acmeplayer/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
+            </item>
+            <item library="context2.py">
+                <label>Acme Player - Choose Player</label>
+                <visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode)</visible>
+            </item>
+        </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">TMDb, TVDb and Trakt browser</summary>
+        <description lang="en">Browse The MovieDb, The TVDb, Trakt and pass info along to library or an addon. Needs player-files and the appropriate addon to play the files.</description>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <license></license>
+        <forum></forum>
+        <website></website>
+        <source></source>
+        <news>
+        </news>
+    </extension>
+</addon>
 
+<addon id="plugin.program.acme"
+       name="[B][COLOR crimson]A[/COLOR][/B][B][COLOR salmon]C[/COLOR][/B][B][COLOR crimson]M[/COLOR][/B][B][COLOR salmon]E[/COLOR][/B] [COLOR crimson]Wizard[/COLOR]"
+       version="20.8.21"
+       provider-name="[COLORgreen]• [COLORspringgreen]Tech [COLORpalegreen]E [COLORlime]Coyote [COLORgreen]•[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[B][COLOR crimson]A[/COLOR][/B][B][COLOR salmon]C[/COLOR][/B][B][COLOR crimson]M[/COLOR][/B][B][COLOR salmon]E[/COLOR][/B] [COLOR crimson]Wizard[/COLOR]</summary>
+        <description lang="en">[B][COLOR crimson]A[/COLOR][/B][B][COLOR salmon]C[/COLOR][/B][B][COLOR crimson]M[/COLOR][/B][B][COLOR salmon]E[/COLOR][/B] [COLOR crimson]Wizard[/COLOR]</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source></source>
+        <news>
+ - Initial Commit
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.extendedinfo"
+        name="   [COLORspringgreen]ACME [COLORpalegreen]Info[/COLOR]"
+        version="20.8.21"
+        provider-name="[COLORspringgreen]• [COLORpalegreen]Loonatics [COLORspringgreen]•[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.pil" version="1.1.7"/>
+        <import addon="plugin.video.youtube" version="6.2.2"/>
+        <import addon="script.module.requests" version="2.9.1"/>
+        <import addon="script.skin.helper.service" version="1.0.0"/>
+        <import addon="resource.images.studios.white" version="0.0.18"/>
+        <import addon="plugin.video.acmeplayer" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.script" library="script.py"/>
+    <extension point="xbmc.python.pluginsource" library="plugin.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="context.py">
+                <label>ACME Info</label>
+                <visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,actor) | String.IsEqual(ListItem.dbtype,director)</visible>
+            </item>
+        </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <platform>all</platform>
+        <summary></summary>
+        <description>This script offers various possibilities to display online content inside skins as well as a complete MovieDB browser including info dialogs for various media types. Needs skin implementation for lot of functions and Acme Player for library functions.</description>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot></screenshot>
+            <screenshot></screenshot>
+            <screenshot></screenshot>
+        </assets>
+        <news>
+        </news>
+    </extension>
+</addon>
 	
 </addons>
 
