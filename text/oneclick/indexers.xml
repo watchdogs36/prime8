@@ -4,12 +4,21 @@
 
 
 
-<dir>
-<title>Index 1 Free MOvies</title>
-<link>http://dl.new1music.ir/Movie/2020/</link>
-<thumbnail>https://www.freeiconspng.com/uploads/time-display-and-movies-folder-icon-pictures-13.png</thumbnail>
-<fanart>https://wallpaperset.com/w/full/2/8/b/348549.jpg</fanart>
-</dir>
+<item>
+	<title>[COLOR=white]No Time to Die[/COLOR]</title>
+	<meta>
+	<imdb>tt2382320</imdb>
+	<content>movie</content>
+	<title>No Time to Die</title>
+	<year>2020</year>
+	</meta>
+	<link>
+	<sublink name=[COLOR orange]Trailer Link[/COLOR]>https://www.youtube.com/watch?v=NQkO0Shirl8&feature=youtu.be (Play Trailer)</sublink>
+	<sublink name=[COLOR lime]Torrent Link[/COLOR]>plugin://plugin.video.elementum/movie/370172/links/</sublink>
+	</link>
+	<thumbnail>https://image.tmdb.org/t/p/w1280/iOPXG7q6ZqxSFp2iSY2CvgeRXyC.jpg</thumbnail>
+	<fanart>https://image.tmdb.org/t/p/w1280/uy6l4Y8EZiNlNN5BGHnWfUNtVOy.jpg</fanart>
+</item>
 
 
 
