@@ -421,7 +421,7 @@ class Navigator:
         self.addDirectoryItem('WolfGirl', 'U53R1nav', 'wolfgirl.png', 'DefaultMovies.png')
         self.addDirectoryItem('ShadowHawk', 'U53R2nav', 'shadowhawk.png', 'DefaultMovies.png')
         self.addDirectoryItem('DocOctyl', 'U53R3nav', 'dococtyl.png', 'DefaultMovies.png')
-        #self.addDirectoryItem('U53R4', 'U53R4nav', 'icon.png', 'DefaultMovies.png')
+        self.addDirectoryItem('Random', 'U53R4nav', 'icon.png', 'DefaultMovies.png')
         #self.addDirectoryItem('U53R5', 'U53R5nav', 'icon.png', 'DefaultMovies.png')
         self.endDirectory()
 
