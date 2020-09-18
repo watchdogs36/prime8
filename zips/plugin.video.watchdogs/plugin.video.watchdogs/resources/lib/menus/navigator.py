@@ -451,7 +451,7 @@ class Navigator:
         self.addDirectoryItem('Time Travel', 'movies&url=dotimetravel', 'dococtyl.png', 'DefaultMovies.png')
         self.endDirectory()
 
-    def Random(self, lite=False):
+    def random(self, lite=False):
         self.addDirectoryItem('Godzilla Movies', 'movies&url=godzilla', 'icon.png', 'DefaultMovies.png')
         self.endDirectory()
 

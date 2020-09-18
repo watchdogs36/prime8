@@ -136,8 +136,8 @@ class Movies:
         self.dopota_link = 'https://www.imdb.com/list/ls096704370/?view=detail&sort=alpha,asc&title_type=movie,tvMovie,desc&count=%d&start=1' % self.count
         self.dotimetravel_link = 'https://www.imdb.com/list/ls096762438/?view=detail&sort=alpha,asc&title_type=movie,tvMovie,desc&count=%d&start=1' % self.count
 
-# User Lists U53R4
-        self.U53R4name_link = 'https://www.imdb.com/list/ls044844213/?view=detail&sort=alpha,asc&title_type=movie,tvMovie,desc&count=%d&start=1' % self.count
+# User Lists random Lists
+        self.godzilla_link = 'https://www.imdb.com/list/ls083355104/?view=detail&sort=alpha,asc&title_type=movie,tvMovie,desc&count=%d&start=1' % self.count
 
 # User Lists U53R5
         self.U53R5name_link = 'https://www.imdb.com/list/ls044844213/?view=detail&sort=alpha,asc&title_type=movie,tvMovie,desc&count=%d&start=1' % self.count

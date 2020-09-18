@@ -556,7 +556,7 @@ elif action == 'U53R3nav':
 
 elif action == 'U53R4nav':
     from resources.lib.menus import navigator
-    navigator.Navigator().userName4()
+    navigator.Navigator().random()
 
 elif action == 'U53R5nav':
     from resources.lib.menus import navigator
