@@ -194,7 +194,6 @@
         <import addon="script.tvtap" />
 		<import addon="script.wdtorrent" />
 		<import addon="plugin.program.madhouse.favourites" />
-		<import addon="plugin.video.wdtorrentrssviewer" />
 		<import addon="script.module.mctools" />
 		<import addon="script.elementum.burst" optional="true" />
 		<import addon="plugin.video.elementum" optional="true" />
