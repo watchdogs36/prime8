@@ -192,7 +192,6 @@
         <import addon="context.watchdogs" />
         <import addon="script.swift" />
         <import addon="script.tvtap" />
-		<import addon="script.wdtorrent" />
 		<import addon="plugin.program.madhouse.favourites" />
 		<import addon="script.module.mctools" />
 		<import addon="script.elementum.burst" optional="true" />
