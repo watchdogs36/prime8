@@ -6,7 +6,7 @@ import random
 import re
 import sys
 import time
-
+import openscrapers
 try:
     from urllib import quote_plus
     from urlparse import parse_qsl
