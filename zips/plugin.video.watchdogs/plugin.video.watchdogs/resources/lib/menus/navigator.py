@@ -454,6 +454,7 @@ class Navigator:
     def random(self, lite=False):
         self.addDirectoryItem('Godzilla Movies', 'movies&url=godzilla', 'icon.png', 'DefaultMovies.png')
         self.addDirectoryItem('Nightmare on Elm Street Movies', 'movies&url=elmstreet', 'icon.png', 'DefaultMovies.png')
+        self.addDirectoryItem('2000s Top 100 Movies', 'movies&url=top100', 'icon.png', 'DefaultMovies.png')  
         self.endDirectory()
 
     def userName5(self, lite=False):

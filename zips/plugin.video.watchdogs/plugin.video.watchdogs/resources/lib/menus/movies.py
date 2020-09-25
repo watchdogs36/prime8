@@ -139,6 +139,7 @@ class Movies:
 # User Lists random Lists
         self.godzilla_link = 'https://www.imdb.com/list/ls083355104/?view=detail&sort=alpha,asc&title_type=movie,tvMovie,desc&count=%d&start=1' % self.count
         self.elmstreet_link = 'https://www.imdb.com/list/ls083683171/?view=detail&sort=alpha,asc&title_type=movie,tvMovie,desc&count=%d&start=1' % self.count
+        self.top100_link = 'https://www.imdb.com/list/ls083683465/?view=detail&sort=alpha,asc&title_type=movie,tvMovie,desc&count=%d&start=1' % self.count
 
 # User Lists U53R5
         self.U53R5name_link = 'https://www.imdb.com/list/ls044844213/?view=detail&sort=alpha,asc&title_type=movie,tvMovie,desc&count=%d&start=1' % self.count
