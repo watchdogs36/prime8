@@ -122,6 +122,7 @@ class Movies:
         self.wgmonster_link = 'https://www.imdb.com/list/ls044849542/?view=detail&sort=alpha,asc&title_type=movie,tvMovie,desc&count=%dstart=1' % self.count
         self.wgparanormal_link = 'https://www.imdb.com/list/ls095238183/?view=detail&sort=alpha,asc&title_type=movie,tvMovie,desc&count=%dstart=1' % self.count
         self.wgvault_link = 'https://www.imdb.com/list/ls090769563/?view=detail&sort=alpha,asc&title_type=movie,tvMovie,desc&count=%dstart=1' % self.count
+        self.wgpicks_link = 'https://www.imdb.com/list/ls083232792/?view=detail&sort=alpha,asc&title_type=movie,tvMovie,desc&count=%dstart=1' % self.count
 
 # UserLists ShadowHawks Movies
         self.shjaysilentbob_link = 'https://www.imdb.com/list/ls093291118/?view=detail&sort=alpha,asc&title_type=movie,tvMovie,desc&count=%d&start=1' % self.count
