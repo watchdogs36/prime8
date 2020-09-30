@@ -433,6 +433,8 @@ class Navigator:
         self.addDirectoryItem('Monster', 'wolfgirlMovies&url=wgmonster', 'wolfgirl.png', 'DefaultMovies.png')
         self.addDirectoryItem('Paranormal', 'wolfgirlMovies&url=wgparanormal', 'wolfgirl.png', 'DefaultMovies.png')
         self.addDirectoryItem('Vault', 'wolfgirlMovies&url=wgvault', 'wolfgirl.png', 'DefaultMovies.png')
+        self.addDirectoryItem('Wolfs Picks', 'wolfgirlMovies&url=wgpicks', 'wolfgirl.png', 'DefaultMovies.png')
+        self.addDirectoryItem('Wolfs Toons', 'wolfgirlMovies&url=wgtoons', 'wolfgirl.png', 'DefaultMovies.png')
         self.endDirectory()
 
     def shadowhawks(self, lite=False):
